@@ -1,9 +1,15 @@
 import React from 'react';
 import './UserItem.css';
 
-function UserItem(props) {
+function UserItem({image,name}) {
     return (
-        <div></div>
+        <li className="user-item">
+            <div className="user-item__content">
+                <div className="user-item__image">
+                    <img src={image} alt={name}/>
+                </div>
+            </div>
+        </li>
     );
 }
 
