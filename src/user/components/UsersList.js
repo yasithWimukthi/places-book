@@ -14,7 +14,7 @@ function UsersList({items}) {
         <ul className="users-list">
             {
                 items.map(user => {
-                    <UserItem
+                    return <UserItem
                         key={user.id}
                         id={user.id}
                         image={user.image}
