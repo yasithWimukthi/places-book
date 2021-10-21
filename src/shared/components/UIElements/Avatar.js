@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../../../../../../Downloads/[GigaCourse.com] Udemy - React, NodeJS, Express & MongoDB - The MERN Fullstack Guide/5. React.js - Building the Frontend/5.3 Avatar/Avatar/Avatar.css';
+import './Avatar.css';
 
 const Avatar = props => {
   return (
